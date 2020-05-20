@@ -1,0 +1,1184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>车牌进展-阳光热线问政平台</title>
+    <meta name="keywords" content="知东莞，东莞市，广东东莞，东莞广播电视台，阳光热线，阳光问政，问政平台,东莞热线、阳光热线、东莞、问政、信访、阳光热线问政平台、东莞阳光网、东莞电视台、东莞电台、知东莞、投诉、举报、环保、噪音、污染、乱收费、违建、治安、教育、欠薪、罚款" />
+    <meta name="description" content="《阳光热线问政平台》是东莞最大、最权威、覆盖最广的问政平台，是网络问政、民智汇聚、舆论引导和舆论监督的重要阵地。该平台以“问政于民，问计于民，问需于民”为宗旨，以“构建政府民众连心桥”为根本，力求办成公众了解市委、市政府及各部门工作的一个重要窗口，成为重大、突发事件的权威发布平台，成为各级领导干部了解民情、集中民智，实现科学决策、民主决策的重要渠道。 " />
+    <link rel="stylesheet" href="https://imgzdg.sun0769.com/politicas/pc/css/chart.css">
+    <link rel="stylesheet" href="https://imgzdg.sun0769.com/politicas/pc/css/public_style.css">
+    <link rel="stylesheet" href="https://imgzdg.sun0769.com/politicas/pc/css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="https://imgzdg.sun0769.com/politicas/pc/css/style.css">
+    <script src="https://imgzdg.sun0769.com/politicas/pc/js/jquery-2.1.4.min.js"></script>
+    <script src="https://imgzdg.sun0769.com/js/layer/layer.js"></script>
+</head>
+<body>
+<div class="public-header">
+    <div class="width-12 clear">
+        <div class="fl header-fl">
+            <span>欢迎您访问阳光热线问政</span><span class="date_header"></span><span class="week_po"></span>
+        </div>
+                <div class="fr fl-option">
+            <a class="login">登录</a><a href="/political/index/register">注册</a>
+        </div>
+            </div>
+</div>
+<script>
+    //判断访问终端
+//    var browser={
+//        versions:function(){
+//            var u = navigator.userAgent, app = navigator.appVersion;
+//            return {
+//                trident: u.indexOf('Trident') > -1, //IE内核
+//                presto: u.indexOf('Presto') > -1, //opera内核
+//                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+//                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+//                mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+//                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+//                android: u.indexOf('Android') > -1 || u.indexOf('Adr') > -1, //android终端
+//                iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+//                iPad: u.indexOf('iPad') > -1, //是否iPad
+//                webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+//                weixin: u.indexOf('MicroMessenger') > -1, //是否微信 （2015-01-22新增）
+//                qq: u.match(/\sQQ/i) == " qq" //是否QQ
+//            };
+//        }(),
+//        language:(navigator.browserLanguage || navigator.language).toLowerCase()
+//    }
+//    if(browser.versions.mobile||browser.versions.android||browser.versions.ios||browser.versions.weixin){
+//        window.location.href="http://wwwzdg.sun0769.com/download/index.html?from=singlemessage";
+//    }
+</script>
+<style>
+    .gf-reply-list img{
+        width: 100px;
+        height: 100px;
+        display: block;
+        float: left;
+        margin: 15px 15px 0 0;
+        border-radius:8px;
+        cursor: pointer;
+    }
+   .gf-reply{
+       height: auto;
+   }
+    #img-flex{
+        display: block;
+    }
+    .img-flexBox{
+        text-align: center;
+    }
+    .imgFlex-close{
+        background: url("https://imgzdg.sun0769.com/politicas/pc/images/closeWj.png") no-repeat;
+        background-size: 100% 100%;
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+        right: -10px;
+        top:-10px;
+        z-index: 999;
+        cursor: pointer;
+    }
+    .video-div{
+        margin-top: 20px;
+    }
+    .video-div video{
+        display: block;
+        border-radius: 6px;
+    }
+    .bshare-sinaminiblog{
+        background: url("https://imgzdg.sun0769.com/politicas/pc/images/weibo2.png") no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+    .bshare-qqim{
+        background: url("https://imgzdg.sun0769.com/politicas/pc/images/qq2.png") no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+    .bshare-qzone{
+        background: url("https://imgzdg.sun0769.com/politicas/pc/images/qqz2.png") no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+    .bshare-custom.icon-medium-plus .bshare-weixin{
+        background: url("https://imgzdg.sun0769.com/politicas/pc/images/wechat2.png") no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+    .bshare-custom.icon-medium-plus a{
+        height: 40px;
+        width: 40px;
+    }
+    .bsTop{
+        width: 100% !important;
+    }
+    .bsBox{
+        height: auto !important;
+    }
+    .gf-reply-sty{
+        font-size:16px;
+        color:rgba(167,167,167,1);
+        line-height:21px;
+    }
+    .swiper-imgview {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3000;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+    .swiper-pagination {
+        position: absolute;
+        bottom: 20px !important;
+        left: 20px !important;
+    }
+    .swiper-pagination-current {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(255,76,103,1);
+        line-height: 25px;
+    }
+    .swiper-pagination-total, .countLine {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(255,255,255,1);
+        line-height: 17px;
+    }
+    .swiper-slide{
+        padding: 50px !important;
+    }
+    pre{
+        white-space: pre-wrap;
+        line-height: 1.8em;
+        margin: 30px 20px;
+    }
+</style>
+<link rel="stylesheet" href="https://imgzdg.sun0769.com/politicas/pc/css/tcplayer.css">
+<script src="https://imgzdg.sun0769.com/politicas/pc/js/TcPlayer-2.3.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+<script type="text/javascript" charset="utf-8" src="https://static.bshare.cn/b/bshareC0.js"></script>
+<!--图片放大弹层-->
+<div class="flex-layer img-flexBox-po" style="display: none">
+    <div class="img-flexBox po" style="max-width: 80%;max-height: 80%">
+        <div style="position: relative;display: inline-block;max-width: 100%;max-height: 100%;">
+            <i class="imgFlex-close"></i>
+            <img src="http://upload.dev.zdg.xinmem.com/1/2019/1118/1574048140911235.jpg" id="img-flex" style="width: auto;height: auto;max-width: 100%;max-height: 100%"/>
+        </div>
+    </div>
+</div>
+<div class="public-content">
+    <style>
+    .header-ul .header-li::after{
+        bottom: -30px;
+    }
+</style>
+<div class="header-div" style="height: auto;padding: 10px 0 21px 0;">
+    <img src="https://imgzdg.sun0769.com/politicas/pc/images/top-head.png" alt="" style="width: 1200px;display: block;margin: 0 auto 20px">
+    <div class="width-12 clear">
+        <div class="fl">
+            <img src="https://imgzdg.sun0769.com/politicas/pc/images/logo.png" class="head-logo" style="width: 156px;height: auto;margin-top: 5px"/>
+        </div>
+        <ul class="header-ul fl">
+            <li ><a  href="/political/index/index">首页</a></li>
+            <li><a   href="/political/depart/index">政府部门</a></li>
+            <li><a  href="/political/index/ranking">问政周榜</a></li>
+            <li><a target="_blank"   href="http://d.news.sun0769.com/hotline/review.asp">在线访谈</a></li>
+            <li><a  href="/political/index/politicsNewest">最新问政</a></li>
+            <li><a  href="/political/index/supervise">督办回复</a></li>
+                            <li><a  class="login">我的</a></li>
+                    </ul>
+        <div class="fr search-div search_keword">
+            <input type="text" placeholder="搜索" class="keyDown"/>
+            <a class="search"></a>
+        </div>
+    </div>
+</div>    <div class="width-12 mr-three">
+        <div class="second-div mr-two"><a href="/political/index/index"><i class="home-icon"></i>阳光问政</a><span class="second-arrow">&gt;</span><span class="second-active bold">问政详情</span></div>
+        <div class="mr-three">
+            <p class="focus-details">车牌进展</p>
+            <div class="focus-date clear focus-date-list">
+                                <span class="fl details-head">
+                    <img src="https://imgzdg.sun0769.com/images/wap-head-woman@3x.png"/>君jun33                </span>
+                                <span class="fl">发布日期2020-05-18 12:28:49</span>
+                                    <span class="fl">状态：
+                                                    已受理
+                                            </span>
+                                <span class="fl">编号：246851</span>
+                                                            <div class="skillbar fl wait-bar" data-percent="99.2%">
+                            <div class="skillbar-title" style="background: none;">
+                                                                    <span>等待回复：27天20小时5分</span>
+                                                            </div>
+                            <div class="skillbar-bar"></div>
+                        </div>
+                                                </div>
+            <div class="details-box">
+                <pre>5.11在东莞车管办理了车牌互换业务，当时咨询经办人员说一周内收到车牌，今天收到其中一个车牌，剩下一个车牌还没有收到，通过邮政的app查询，结果显示跟现实状况不符。临牌5.26过期，剩下未收到的车牌的那辆车急需要过户，想知道大概什么时候能够收到。</pre>
+            </div>
+                            <div class="clear details-img-list Picture-img">
+                                            <img src="http://ugcuploadzdg.sun0769.com/1/2020/0518/mark_1589776021591040.jpg"/>
+                                            <img src="http://ugcuploadzdg.sun0769.com/1/2020/0518/mark_1589776055197321.png"/>
+                                    </div>
+                        <div class="mr-three clear">
+                                <div class="fl politics-fl">问政部门：邮政速递</div>
+                                <div class="fr politics-option">
+                                           <div class="fl politics-zan login"><!--politics-option-btn 添加此class为已点赞样式-->
+                            <i></i>点赞
+                        </div>
+
+                                            <div class="fl politics-shoucang login"><!--politics-option-btn-->
+                            <i></i>收藏
+                        </div>
+
+                    <div class="fl politics-share">
+                        <i></i>分享
+                        <div class="share-box clear bshare-custom icon-medium-plus" style="width: 300px;left: -80px">
+                            <div class="share-div fl" style="margin:0 25px 0 0">
+                                <a title="分享到微信" class="bshare-weixin" style="width: 40px;padding-right: 0;margin-right: 0"></a>
+                                <p class="share-tit">微信</p>
+                            </div>
+                            <ul class="fl share-ul" style="margin-top: 0">
+                                <li>
+                                    <a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+                                    <p class="share-tit">新浪微博</p>
+                                </li>
+                                <li>
+                                    <a title="分享到QQ好友" class="bshare-qqim"></a>
+                                    <p class="share-tit">qq好友</p>
+                                </li>
+                                <li>
+                                    <a title="分享到QQ空间" class="bshare-qzone"></a>
+                                    <p class="share-tit">qq空间</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                            <div class="mr-five">
+                    <p class="gf-reply-title">官方回复</p>
+                                            <div class="gf-reply mr-two gf-reply-sty" >正在等待官方回复...</div>
+                                    </div>
+
+            <div class="mr-three clear">
+                <div class="score-list">
+                                    </div>
+                                            </div>
+                            <div class="mr-five">
+                    <p class="gf-reply-title">我要说两句</p>
+                    <textarea class="gf-reply mr-two user_content" placeholder="我要说两句…" style="height: 100px"></textarea>
+                </div>
+                                    <div class="mr-three clear">
+                        <a class="score-a fl login">畅言一下</a>
+                    </div>
+
+                        <div class="no-comment">还没有评论，快来抢沙发~</div>
+                    </div>
+    </div>
+</div>
+<!--评分弹层-->
+<div class="flex-layer user_score" style="display: none">
+    <div class="po score-div">
+        <div class="flex-logn-title">我要评分
+<!--            <i class="close-flex"></i>-->
+        </div>
+        <div class="mr-two clear">
+            <span class="score-bitian fl">评分</span>
+            <div class="star-sty fl" style="margin-left: 12px">
+                <i class="" name="1"></i><i class="" name="2"></i><i class="" name="3"></i><i name="4"></i><i name="5"></i>
+            </div>
+            <div class="fl score-fen">0</div>
+        </div>
+        <div class="mr-two">
+            <textarea placeholder="请输入您的评价" class="score-text"></textarea>
+        </div>
+        <input type="hidden" id="score" value="">
+
+        <p style="font-size: 12px;color: #999;margin-top: 10px;line-height: 19px;">温馨提醒：评价1-2星为不满意，3星为基本满意，4-5星为满意。十天后不作评价，系统默认“基本满意”。</p>
+        <div class="clear score-option mr-three">
+            <a class="score-git" style="cursor: pointer">提交</a>
+            <a class="score-quxiao" style="margin-left: 15px;cursor: pointer">取消</a>
+        </div>
+    </div>
+    </div>
+
+
+<!--举报评论-->
+<div class="flex-layer ju_complan" style="display:none;" >
+    <form id="myFrom">
+        <div class="po score-div" style="width: 430px;padding: 30px 20px 30px 40px;">
+            <div class="flex-logn-title">举报评论<i class="close-flex"></i></div>
+            <div style="max-height: 400px;overflow-y: auto;padding-right: 20px">
+                <div class="reason-div">
+                    <p class="reason-div-p">请选择原因（必填）</p>
+                    <ul class="change_answer investigation-ul clear">
+                                                    <li class="change_radio clear">
+                                <label>
+                                    <div>
+                                        <input type="radio" name="comp" value="违法国家有关法律法规及公序良俗的内容" />
+                                        <div class="option"></div>
+                                    </div>
+                                    <p class="change_answer-img">
+                                        <span>违法国家有关法律法规及公序良俗的内容</span>
+                                    </p>
+                                </label>
+                            </li>
+                                                    <li class="change_radio clear">
+                                <label>
+                                    <div>
+                                        <input type="radio" name="comp" value="涉嫌广告推销、欺诈等不良信息内容" />
+                                        <div class="option"></div>
+                                    </div>
+                                    <p class="change_answer-img">
+                                        <span>涉嫌广告推销、欺诈等不良信息内容</span>
+                                    </p>
+                                </label>
+                            </li>
+                                                    <li class="change_radio clear">
+                                <label>
+                                    <div>
+                                        <input type="radio" name="comp" value="涉及人身攻击、骚扰及泄露个人隐私的内容" />
+                                        <div class="option"></div>
+                                    </div>
+                                    <p class="change_answer-img">
+                                        <span>涉及人身攻击、骚扰及泄露个人隐私的内容</span>
+                                    </p>
+                                </label>
+                            </li>
+                                                    <li class="change_radio clear">
+                                <label>
+                                    <div>
+                                        <input type="radio" name="comp" value="散布谣言、不实信息及扰乱破坏社会秩序及稳定" />
+                                        <div class="option"></div>
+                                    </div>
+                                    <p class="change_answer-img">
+                                        <span>散布谣言、不实信息及扰乱破坏社会秩序及稳定</span>
+                                    </p>
+                                </label>
+                            </li>
+                                                    <li class="change_radio clear">
+                                <label>
+                                    <div>
+                                        <input type="radio" name="comp" value="其他可能会导致用户不适的内容" />
+                                        <div class="option"></div>
+                                    </div>
+                                    <p class="change_answer-img">
+                                        <span>其他可能会导致用户不适的内容</span>
+                                    </p>
+                                </label>
+                            </li>
+
+                    </ul>
+                </div>
+                <p class="reason-div-p" style="margin-top: 30px">其他原因</p>
+                <textarea placeholder="请输入您要举报的内容，最多140个汉字" name="comp_content" class="score-text comp_content" style="height: 100px"></textarea>
+                <p class="reason-div-p" style="margin-top: 20px">图片证据（必填最多三张）</p>
+                <div class="register-input clear up-list mr-two" style="width: 100%">
+    <!--                <div>-->
+    <!--                    <img src="../images/img20.png"/>-->
+    <!--                    <i class="delete-i"></i>-->
+    <!--                </div>-->
+
+                    <div class="up-div li-last">
+                        <input type="file"    multiple id="images"/>
+                    </div>
+                </div>
+                <input type="hidden" name="cid" class="comment_id">
+                <a class="login-a login-active save_conplan" style="width: 100%">提交</a>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- 图片预览 -->
+<div class="swiper-imgview" id="origin-img">
+    <div class="swiper-wrapper"></div>
+    <div class="swiper-pagination"></div>
+    <div class="pub_downImg"></div>
+</div>
+
+
+
+<!--底部-->
+<div class="w1200">
+    <div class="mediaGroup">
+        <div class="mDoor">
+
+            <div id="doorA" class="clearfix">
+                <div id="menu">
+                    <ul class="clearfix">
+                        <li id="m1"><a>广播</a></li>
+                        <li id="m2"><a>电视</a></li>
+                        <li id="m3"><a>网站</a></li>
+                        <li id="m4" class="on"><a>新媒体</a></li>
+                    </ul>
+                </div>
+
+                <div id="content">
+                    <!--479_begin-->
+                    <div id="mediaGroup1" class="ewmListA clearfix">
+                        <div class="media-ml1  "  ><a href="http://dgrtv.sun0769.com/index.php/online2/1" desc>综合广播（FM100.8MHz）</a><span></span> <a href="http://dgrtv.sun0769.com/index.php/online2/2" desc>交通广播（FM107.5MHz）</a><span></span> <a href="http://dgrtv.sun0769.com/index.php/online2/3" desc>音乐广播（FM104.0MHz）</a> </div></div>
+                    <!--479_end-->
+                    <!--480_begin-->
+                    <div id="mediaGroup2" class="ewmListA clearfix">
+                        <div class=" "  ><a href="http://dgrtv.sun0769.com/index.php/online2/4" desc>新闻综合频道</a><span></span> <a href="http://dgrtv.sun0769.com/index.php/online2/5" desc>公共频道</a> </div></div>
+                    <!--480_end-->
+                    <!--481_begin-->
+                    <div id="mediaGroup3" class="ewmListA clearfix"><div class=" " ><a href="http://www.sun0769.com/"  class="">东莞阳光网</a><span></span> <a href="http://www.dongguantoday.com/"  class="">“今日东莞”英文网</a><span></span> <a href="http://law.sun0769.com/" class="" >普法网</a></div></div>
+                    <!--481_end-->
+                    <!--482_begin-->
+                    <div id="mediaGroup4" class="ewmListB clearfix">
+                        <ul class=" " >
+                            <li><a class=""><img src="//images3.sun0769.com/wwwimg/newshand/newphoto/2019/10/1024511832.gif" alt=""></a><span class="static">知东莞App</span></li>
+                            <li><a class=""><img src="//images2.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026317196.gif" alt=""></a><span class="static">东莞阳光台App</span></li>
+                            <li><a class=""><img src="//images5.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026660052.gif" alt=""></a><span class="static">东莞广播电视台<br>微博</span></li>
+                            <li><a class=""><img src="//images3.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026437496.gif" alt=""></a><span class="static">东莞广播电视台<br>微信公众号</span></li>
+                            <li><a class=""><img src="//images4.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026447686.gif" alt=""></a><span class="static">东莞阳光网微博</span></li>
+                            <li><a class=""><img src="//images5.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026926196.gif" alt=""></a><span class="static">东莞阳光网<br>微信公众号</span></li>
+                            <li><a class=""><img src="//images2.sun0769.com/wwwimg/newshand/newphoto/2019/10/1021351144.jpg" alt=""></a><span class="static">东莞电台<br>微信公众号</span></li>
+                            <li class="" style=""><a class=""><img src="//images2.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026469961.gif" alt=""></a><span class="static">今日莞事<br>微信公众号</span></li>
+                        </ul>
+                    </div>
+                    <!--482_end-->
+                    <!--483_begin-->
+                    <div id="mediaGroup5" class="ewmListB clearfix">      <ul class=" " >        	<li><a class="" ><img src="//images5.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026875851.gif" alt=""></a><span class="static">莞香花开</span></li>            <li><a class="" ><img src="//images4.sun0769.com/wwwimg/newshand/newphoto/2018/10/1027605491.gif" alt=""></a><span class="static">东莞市食品药品<br>监督局</span></li>            <li><a class="" ><img src="//images2.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026112823.gif" alt=""></a><span class="static">东莞市中级<br>人民法院</span></li>            <li><a class="" ><img src="//images2.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026402230.gif" alt=""></a><span class="static">东莞市第一<br>人民法院</span></li>            <li><a class="" ><img src="//images2.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026868160.gif" alt=""></a><span class="static">东莞市第三<br>人民法院</span></li>            <li><a class="" ><img src="//images3.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026348644.gif" alt=""></a><span class="static">东莞市莞台文化<br>交流中心</span></li>            <li><a class="" ><img src="//images5.sun0769.com/wwwimg/newshand/newphoto/2018/10/1026810798.gif" alt=""></a><span class="static">南城街道办事处</span></li>      </ul>		    </div>
+                    <!--483_end-->
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<link rel="stylesheet" href="http://www.sun0769.com/resource/css/index.css">
+
+<link rel="stylesheet" href="http://www.sun0769.com/foot/footercss.css">
+
+<style>
+    html, body, div, ol, ul, li, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, dt, form, fieldset, legend, input, textarea, select, i, em, table, b, p{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .public-content{
+        padding: 44px 0 80px 0;
+    }
+    #menu{
+        margin-left: 64px;
+    }
+    .ewmListB ul li img{
+        margin: 0 10px 4px 10px;
+        padding: 0;
+    }
+</style>
+<script src="http://www.sun0769.com/foot/foot.js" charset="gbk"></script>
+
+<script>
+    //tab 活页切换
+    $(".newsNav li").hover(function () {
+        $(this).parent().find("li").removeClass("on");
+        $(this).addClass('on');
+        $(this).parent().parent().nextAll(".tab").removeClass('tab-on');
+        $($(this).parent().parent().nextAll(".tab").get($(this).index())).addClass('tab-on');
+        $(this).parent().next(".pci2_more").find("a").attr("href",$(this).find("a").attr("href"));
+    });
+
+    //融媒体切换
+    $("#menu ul li").hover(function(){
+        $(this).addClass('on').siblings().removeClass('on');
+        var mindex = $("#menu ul li").index(this)+1;
+        $("#mediaGroup"+mindex).show().siblings().hide();
+    })
+    //返回顶部
+    var s = $(window).width();
+    $(".replay").hide(), $(window).scroll(function() {
+        var e = $(window).scrollTop();
+        e > 600 ? $(".replay").show() : $(".replay").hide()
+    }), 1024 >= s && $(".replay").hide(), $(".replay_top").bind("click", function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 120)
+    }), $(".replay_top").bind("mouseenter", function() {
+        $(this).attr({
+            src: "//www.sun0769.com/resource/img/replay_top.jpg"
+        })
+    }), $(".replay_top").bind("mouseleave", function() {
+        $(this).attr({
+            src: "//www.sun0769.com/resource/img/replay_tophover.jpg"
+        })
+    })
+</script>
+<script src="http://counter.sun0769.com/js/stat.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?3ac08b9ee936f8dd8b720065d8af23d0";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- <div class="footer-div" style="margin-top: 100px">
+    <div class="width-12 clear">
+        <div class="fl" style="width: 477px;padding-top: 15px">
+            <div class="clear">
+                <img src="https://imgzdg.sun0769.com/politicas/pcimages/logo-bottom.png" class="footer-logo fl"/>
+                <ul class="fl footer-about">
+                    <li><a>联系我们</a></li>
+                    <li><a>新闻投稿</a></li>
+                    <li><a>合作洽谈</a></li>
+                </ul>
+            </div>
+            <div class="clear bottom-p">
+                <p><span>版权所有 知东莞 &#169 2016. All Rights Reserved </span><span>京ICP备15027006号-1 公安机关备案号</span></p>
+                <p> 51019002001121主办单位：知东莞</p>
+            </div>
+        </div>
+        <div class="fl" style="margin-left: 150px">
+            <p class="bottom-down">下载知东莞客户端</p>
+            <div class="clear down-div">
+                <div>
+                    <div class="down-div-top"><img src="https://imgzdg.sun0769.com/politicas/pcimages/code.png"/></div>
+                    <p>安卓版</p>
+                </div>
+                <div>
+                    <div class="down-div-top"><img src="https://imgzdg.sun0769.com/politicas/pcimages/code.png"/></div>
+                    <p>ios版</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!--登录-->
+<div class="flex-layer doLogin" style="display: none">
+    <div class="po flex-logn">
+        <div class="flex-logn-title">账号密码登录<i class="close-flex"></i></div>
+        <div style="padding-top: 10px">
+            <div class="mr-two">
+                <input type="text"  placeholder="请输入用户名（手机号）" class="login-input login_phone"/>
+            </div>
+            <div class="mr-two code-input">
+                <input type="password" placeholder="请输入登录密码" class="login-input login_pwd"/>
+<!--                <a class="code-input-a code-input-sty1">短信验证码</a>&lt;!&ndash;code-input-sty为点击后的样式&ndash;&gt;-->
+            </div>
+        </div>
+        <div class="clear forgrt-password">
+            <a href="/political/index/forget" class="fr" style="color: #222222">忘记密码</a>
+            <a class="fr phone_verif" style="color: #222222">短信验证登录</a>
+        </div>
+        <a class="login-a mr-three login-active do-login">登录</a><!--login-active为可以登录状态的样式-->
+        <!--<p class="account-onther mr-three">第三方账号登录</p>-->
+        <!--<div class="account-onther-div">-->
+            <!--<a class="wechat loginusers" data-id="2"></a>-->
+            <!--<a class="weibo loginusers" data-id="1"></a>-->
+            <!--<a class="qq loginusers" data-id="3"></a>-->
+        <!--</div>-->
+    </div>
+</div>
+
+<!--短信验证码登录-->
+<div class="flex-layer phone_login" style="display: none">
+    <div class="po flex-logn">
+        <div class="flex-logn-title">短信验证码登录<i class="close-flex"></i></div>
+        <div style="padding-top: 10px">
+            <div class="mr-two">
+                <input type="text"  placeholder="请输入用户名（手机号）" name="phone" class="login-input login_sms"/>
+            </div>
+            <div class="mr-two">
+                <div class="register-input clear" style="width: 340px">
+                    <input type="text" class="num verif_code" placeholder="请输入图形验证码" style="padding-right: 78px">
+                    <a class="code-input-code"><img  class="display-a set_image"   onclick="this.src = this.src" ></a>
+                </div>
+            </div>
+            <div class="mr-two code-input">
+                <input type="text" placeholder="请输入验证码" name="code" class="login-input login-code"/>
+                <a class="code-input-a code-input-sty1 login_code" data-flag="true">短信验证码</a><!--code-input-sty为点击后的样式-->
+            </div>
+        </div>
+        <div class="clear forgrt-password">
+            <a href="/political/index/forget" class="fr" style="color: #222222">忘记密码</a>
+            <a class="fr do_login" style="color: #222222">账号密码登录</a>
+        </div>
+        <a class="login-a mr-three login-active phone-login">登录</a><!--login-active为可以登录状态的样式-->
+    </div>
+</div>
+
+<script src="https://imgzdg.sun0769.com/politicas/pc/js/swiper.min.js"></script>
+<script src="https://imgzdg.sun0769.com/politicas/pc/js/public.js"></script>
+<script>
+    var d = new Date();
+    var my_day=d.getDate();
+    var my_month=d.getMonth()+1;
+    var my_year=d.getFullYear();
+    $(".date_header").html(my_year+"年"+my_month+"月"+my_day+"日");
+    var a = new Array("日", "一", "二", "三", "四", "五", "六");
+    var week = new Date().getDay();
+   $(".week_po").html("星期"+a[week])
+    $(".login").click(function () {
+        $(".doLogin").show();
+    })
+    $(".close-flex").click(function () {
+        $(".doLogin").hide();
+        $(".phone_login").hide();
+    })
+    //登陆
+    $(".do-login").click(function () {
+         var phone = $(".login_phone").val();
+         var pwd = $(".login_pwd").val();
+         var reg = /^1\d{10}$/;
+        if(phone==""){
+            layer.msg("请输入手机号码", {time: 1000});
+            return false;
+        }
+        if (!reg.test(phone)) {
+            layer.msg("请输入正确号码",{time:1000});
+            return false;
+        }
+        if(pwd==""){
+            layer.msg("请输入密码", {time: 1000});
+            return false;
+        }
+        $.post("/political/login/ajaxLogin",{phone:phone,pwd:pwd}, function (res) {
+            if (res.error_code != 0) {
+                layer.msg(res.error_msg, {time: 1000});
+            } else {
+                window.location.reload();
+            }
+        }, 'json');
+    })
+
+//    退出登陆
+    $(".out-a").click(function () {
+        $.post("/political/login/ajaxOutLogin",{}, function (res) {
+            if (res.error_code != 0) {
+                layer.msg("退出失败", {time: 1000});
+            } else {
+                window.location.reload();
+            }
+        }, 'json');
+    })
+
+    $(".search").click(function () {
+        var  keyword = $(".keyDown").val();
+        if(keyword==""){
+            return false;
+        }
+        window.location.href = "/political/index/search?keyword="+keyword;
+    })
+
+    $(".keyDown").keydown('keyup',function (event) {
+        event=document.all?window.event:event;
+        if((event.keyCode || event.which)==13){
+            var  keyword = $(".keyDown").val();
+            if(keyword==""){
+                return false;
+            }
+            window.location.href = "/political/index/search?keyword="+keyword;
+        }
+    })
+
+    $(".phone_verif").click(function () {
+        $(".set_image").attr("src","/political/code/image?type=poltical_logo");
+        $(".doLogin").hide();
+        $(".phone_login").show();
+    })
+
+    $(".do_login").click(function () {
+        $(".doLogin").show();
+        $(".phone_login").hide();
+    })
+
+    //短信登陆
+    $(".login_code").click(function () {
+        var  phone = $(".login_sms").val();
+        var cod = $(".verif_code").val();
+        var InterValObj; //timer变量，控制时间
+        var count = 60; //间隔函数，1秒执行
+        var curCount;//当前剩余秒数
+        var flag = $(this).attr('data-flag');
+        if(phone==""){
+            layer.msg("请输入手机号码", {time: 1000});
+            return false;
+        }
+        if(cod==""){
+            layer.msg("请输入图形验证码", {time: 1000});
+            return false;
+        }
+
+        var type = "poltical_logo";
+        if(flag=='true'){
+            //发送短信
+            $.ajax({
+                type: "post", //用POST方式传输
+                url: "/political/politics/ajaxSendSMS", //目标地址
+                data: {
+                    cod:cod,
+                    phone:phone,
+                    type:type,
+                },
+                success:function(response){
+                    if(response.error_code==0) {
+                        //设置button效果，开始计时
+                        curCount = count;
+                        $(".code-input-sty1").attr("disabled", "true");
+                        // $(".code-input-sty1").text(curCount + "s");
+                        InterValObj = window.setInterval(function(){
+                            if (curCount == 0) {
+                                window.clearInterval(InterValObj);//停止计时器
+                                $(".code-input-sty1").removeAttr("disabled");//启用按钮
+                                $(".code-input-sty1").removeClass("code-input-sty");
+                                $(".code-input-sty1").text("获取验证码");
+                                $(".code-input-sty1").attr("data-flag", "true");
+                            }
+                            else {
+                                curCount--;
+                                $(".code-input-sty1").addClass("code-input-sty");
+                                $(".code-input-sty1").text("重新发送" + curCount );
+                                $(".code-input-sty1").attr("data-flag", "false");
+                            }
+                        }, 1000); //启动计时器，1秒执行一次
+                        layer.msg("发送成功", {time: 1000});
+                    }else {
+                        layer.msg(response.error_msg, {time: 1000});
+                    }
+                }
+            });
+        }
+    })
+
+    $(".phone-login").click(function () {
+        var phone = $(".login_sms").val();
+        var code = $(".login-code").val();
+        var reg = /^1\d{10}$/;
+        if(phone==""){
+            layer.msg("请输入手机号码", {time: 1000});
+            return false;
+        }
+        if (!reg.test(phone)) {
+            layer.msg("请输入正确号码",{time:1000});
+            return false;
+        }
+        if(code==""){
+            layer.msg("请输入短信验证码", {time: 1000});
+            return false;
+        }
+        $.post("/political/login/ajaxPhoneLogin",{phone:phone,code:code}, function (res) {
+            if (res.error_code != 0) {
+                layer.msg(res.error_msg, {time: 1000});
+            } else {
+                window.location.reload();
+            }
+        }, 'json');
+    })
+
+
+    //第三方登录
+    $('.loginusers').click(function () {
+        var type = $(this).attr('data-id');
+        if (!type && type > 3) {
+            layer.msg('非法操作');
+            return false;
+        }
+        var now_url = window.location.href;
+        //向后台发送处理数据
+        $.ajax({
+            type: "POST", //用POST方式传输
+            dataType: "json", //数据格式:JSON
+            url: "/political/login/ajaxLoginbb", //目标地址
+            data: {flatmint: type, now_url: now_url},
+            success: function (res) {
+                console.debug(res);
+                if (res.error_code == 0) {
+                    if (res.url) {
+                        window.location.href = res.url;
+                    } else {
+                        layer.msg('操作错误');
+                    }
+                } else {
+                    layer.msg(res.error_msg);
+                }
+            }
+        });
+    });
+</script><script>
+
+    $(".header-ul li").click(function () {
+        $(this).addClass("header-li").siblings().removeClass("header-li");
+    })
+    /*百分比*/
+    $(document).ready(function(){
+        $('.skillbar').each(function(){
+            $(this).find('.skillbar-bar').animate({
+                width:$(this).attr('data-percent')
+            },1000);
+        });
+    });
+
+    $(".score-me").click(function () {
+        $(".user_score").show();
+    })
+
+    //打分
+    $(".score-git").click(function () {
+        var score  = $("#score").val();
+        var content  = $(".score-text").val();
+        var id = "456615";
+        $.post("/political/politics/ajaxAddScore",{score:score,content:content,id:id}, function (res) {
+            if (res.error_code != 0) {
+                layer.msg(res.error_msg, {time: 1000});
+            } else {
+                window.location.reload();
+            }
+        }, 'json');
+    })
+
+    $(".score-quxiao").click(function () {
+        $(".user_score").hide();
+    })
+
+
+    //点赞
+    $(".user_love").click(function () {
+        var id = "456615";
+        var flag =  $(this).attr("data-type");
+        if(flag=='1'){
+            $(this).attr("data-type",'2');
+            if($(this).hasClass("politics-option-btn")){
+                $.post("/political/politics/ajaxAddLove",{id:id}, function (res) {
+                    if (res.error_code != 0) {
+                        layer.msg(res.error_msg, {time: 1000});
+                    } else {
+                        layer.msg(res.error_msg, {time: 1000});
+                        $(".user_love").removeClass("politics-option-btn");
+                        $(".user_love").html(" <i></i>点赞")
+                    }
+                }, 'json');
+            }else {
+                $.post("/political/politics/ajaxAddLove",{id:id}, function (res) {
+                    if (res.error_code != 0) {
+                        layer.msg(res.error_msg, {time: 1000});
+                    } else {
+                        layer.msg(res.error_msg, {time: 1000});
+                        $(".user_love").addClass("politics-option-btn");
+                        $(".user_love").html(" <i></i>已点赞")
+                    }
+                }, 'json');
+            }
+            setTimeout(function () {
+                $(".user_love").attr("data-type",'1');
+            }, 3000);//两秒内不能重复点击
+        }
+    })
+
+
+    //收藏
+    $(".user_fav").click(function () {
+        var id = "456615";
+        var flag =  $(this).attr("data-type");
+        if(flag=='1'){
+            $(this).attr("data-type",'2');
+            if($(this).hasClass("politics-option-btn")){
+                $.post("/political/politics/ajaxDelFav",{id:id}, function (res) {
+                    if (res.error_code != 0) {
+                        layer.msg(res.error_msg, {time: 1000});
+                    } else {
+                        layer.msg(res.error_msg, {time: 1000});
+                        $(".user_fav").removeClass("politics-option-btn");
+                        $(".user_fav").html(" <i></i>收藏")
+                    }
+                }, 'json');
+            }else {
+                $.post("/political/politics/ajaxAddFav",{id:id}, function (res) {
+                    if (res.error_code != 0) {
+                        layer.msg(res.error_msg, {time: 1000});
+                    } else {
+                        layer.msg(res.error_msg, {time: 1000});
+                        $(".user_fav").addClass("politics-option-btn");
+                        $(".user_fav").html(" <i></i>已收藏")
+                    }
+                }, 'json');
+            }
+            setTimeout(function () {
+                $(".user_fav").attr("data-type",'1');
+            }, 3000);//两秒内不能重复点击
+        }
+    })
+
+    // 评论点赞
+    $(document).on('click',".loves",function () {
+        var flag =  $(this).attr("data-type");
+        var id =  $(this).attr("id");
+        var uid  = "";
+        if(!uid){
+            layer.msg("请先登陆", {time: 1000});
+            return  false;
+        }
+        if(flag=='1'){
+            var num = parseInt($(this).next().html());
+            $(this).attr("data-type",'2');
+            if ($(this).hasClass('zaned-i')) {
+                $(this).removeClass("zaned-i");
+                $(this).next().html(num-1)
+            }else{
+                $(this).addClass("zaned-i");
+                $(this).next().html(num+1)
+            }
+            $.post("/political/politics/ajaxLoveComment",{cid:id,type:3}, function (res) {
+                if (res.error_code == 0) {
+                    layer.msg(res.error_msg, {time: 1000});
+                }else {
+                    layer.msg(res.error_msg, {time: 1000});
+                }
+            }, 'json');
+            setTimeout(function () {
+                $("#"+id).attr("data-type",'1');
+            }, 2000);//一秒内不能重复点击
+        }else{
+            return false;
+        }
+    })
+
+
+    /**
+     * 提交评论
+     */
+    $(document).on('click',".save_comment",function () {
+        var content = $(".user_content").val();
+        var id = "456615";
+        var create_uid = "459028";
+        $(this).css("pointer-events","none");
+        if(content==""){
+            layer.msg("评论内容不可为空", {time: 1000});
+            return false;
+        }
+        $.post("/political/politics/ajaxComment",{cid:id,content:content,create_uid:create_uid}, function (res) {
+            if (res.error_code != 0) {
+                $(save).css("pointer-events","");
+                layer.msg(res.error_msg, {time: 1000});
+            } else {
+                layer.msg("评论成功", {time: 1000});
+                window.location.reload();
+            }
+        }, 'json');
+    })
+
+
+    $(document).on('click',".comment-1",function () {
+        var uid  = "";
+        if(!uid){
+            layer.msg("请先登陆", {time: 1000});
+            return  false;
+        }
+        $(this).parents(".comment-div").find(".comment-hf").toggleClass("comment-show");
+    })
+
+
+    //回复提交
+    $(document).on("click",".user_reply",function () {
+        var content = $(this).prev().val();
+        var id = "456615";
+        var create_uid = "459028";
+        var replyId = $(this).data("id");
+        $(this).css("pointer-events","none");
+        if(content==""){
+            layer.msg("评论内容不可为空", {time: 1000});
+            return false;
+        }
+        $.post("/political/politics/ajaxComment",{cid:id,content:content,create_uid:create_uid,replyId:replyId}, function (res) {
+            if (res.error_code != 0) {
+                $(save).css("pointer-events","");
+                layer.msg(res.error_msg, {time: 1000});
+            } else {
+                layer.msg("评论成功", {time: 1000});
+                window.location.reload();
+            }
+        }, 'json');
+    })
+    window.page = 2
+    $(".load-more").click(function () {
+        var id = "456615";
+        var page = window.page;
+        $.post("/political/politics/ajaxGetComment",{id:id,page:page}, function (res) {
+            if (res.error_code != 0) {
+                layer.msg(res.error_msg, {time: 1000});
+            } else {
+                var temp = '';
+                if(res.data.length>0){
+                    $.each(res.data, function (k, v) {
+                         temp += '<li class="clear">\
+                                    <a class="fl comment-head"><img src="'+v.user.image+'"/></a>\
+                                           <div class="comment-div">\
+                                                <div class="clear comment-top">'+v.user.nickname+'<span>'+v.create_time+'</span></div>\
+                                                <div class="clear mr-two hf-tit"> '+v.content+'</div>';
+                        if(v.comment.length>0){
+                            temp+='<div class="commented">\
+                                <span>回复'+v.comment[0].user.name+' ：</span> </div>'
+                        }
+                      temp+='<div class="clear comment-opction mr-two">\
+                                <div class="comment-1"><i></i>回复</div>\
+                                <div class="comment-2 love_comment" >';
+                      if(v.is_like){
+                          temp+='<i data-type="1" id="'+v.id+'"   class="loves zaned-i"></i>';
+                      }else {
+                          temp+='<i data-type="1" id="'+v.id+'"   class="loves"></i>';
+                      }
+                     temp+='<span style="margin-left: 5px">'+v.loves+'</span></div>\
+                                <div data-id="'+v.id+'" class="jubao fr"><i></i>举报</div>\
+                           </div>\
+                           <div class="comment-hf">\
+                                <input type="text" placeholder="回复：'+v.user.nickname+'"/>\
+                                <a data-id="'+v.id+'" class="user_reply">回复</a>\
+                            </div>\
+                        </div>\
+                    </li>'
+                    })
+                    $('.comment-ul').append(temp);
+                    ++window.page;
+                }else {
+                    $('.load-more').text('已没有更多数据');
+                }
+            }
+        }, 'json');
+    })
+
+    /*官方回复图片放大*/
+    var swiper = new Swiper('.swiper-imgview', {
+        zoom: true,
+        width: window.innerWidth,
+        virtual: true,
+        spaceBetween: 20,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        on: {
+            click: function () {
+                $('#origin-img').fadeOut('fast');
+                this.virtual.slides.length = 0;
+                this.virtual.cache = [];
+                swiperStatus = false;
+            },
+        },
+    });
+    $('.Picture-img img').click(function () {
+        clickIndex = $(this).index();
+        var imgs = [];
+        var currentList = ($(".Picture-img")[($(this).parent().index(".Picture-img"))])
+        $(currentList).children().each(function () {
+            var path = $(this).attr("src");
+            imgs.push(path)
+        })
+        for (i = 0; i < imgs.length; i++) {
+            swiper.virtual.appendSlide("<div class='swiper-zoom-container'><img src='" + imgs[i] + "' /></div>");
+        }
+        swiper.slideTo(clickIndex);
+        $('#origin-img').fadeIn('fast');
+        swiperStatus = true;
+
+    })
+
+
+</script>
+<script>
+// <!-- 举报管理-->
+    $(document).on('click','.jubao',function () {
+        var uid  = "";
+        if(!uid){
+            layer.msg("请先登陆", {time: 1000});
+            return  false;
+        }
+        var id = $(this).data("id");
+        $(".comment_id").val(id);
+        $(".comp_content").val("")
+        $(".img-list-li").remove();
+        $(".li-last").show();
+        $(".ju_complan").show();
+    })
+
+    $(".close-flex").click(function () {
+        $(".ju_complan").hide();
+    })
+// <!--    图片上传-->
+    $('#images').on('change', function (evt) {
+        var length = evt.target.files.length;
+        var alllen = $('#images').parent().siblings().length;
+        if((length + alllen) > 3){
+            layer.msg("总共只能上传三张图", {time: 1000});
+            return false;
+        }
+        Loop_ajax(0, length,evt);
+    });
+    /**
+     * 实现多图上传
+     * 递归调用实现循环效果，也可以用for循环。
+     * async: false表示同步请求，async: true表示异步请求（循环执行后ajax只有一个返回结果）
+     * 没有processData: false 报错Illegal invocation
+     * 没有contentType: false 报错 '未传入图片数据'
+     *
+     */
+    function Loop_ajax(i,length,evt) {
+        if (i < length) {
+            //创建FormData对象
+            var data = new FormData();
+            var thumb = '<div class="img-list-li "><input type="hidden" name="imgs[]"/><img /><i class="delete-i"></i></div>';
+            var file = evt.target.files[i] || evt.originalEvent.target.files[i];
+    //            var file = $('#image')[0].files[i];  也可以
+    //            console.debug(file);
+            data.append('file', file);
+            data.append('pic_name', 'file');
+            data.append('thumb_w',"");
+            data.append('thumb_h', "");
+            data.append('thumb_type', 'fill');
+            data.append('allowext','jpg,png,gif,bmp,jpeg');
+            data.append('status', 1);
+    //            console.debug(data);
+            $.ajax({
+                url: "/political/common/ajaxUpload",
+                type: "POST",
+                data: data,
+                async: false,
+                processData: false,  // 不处理数据
+                contentType: false,   // 不设置内容类型
+                success: function (res) {
+                    if (res.error_code != 0) {
+                        layer.msg(res.error_msg, {time: 1000});
+                    } else {
+                        $('.li-last').before(thumb);
+                        $('.li-last').prev().children('img').prop('src', res.url);
+                        $('.li-last').prev().children(':first').val(res.url);
+                        $('#images').parent().siblings().length >= 3? $('.li-last').hide() : $('.li-last').show();
+                        removeImage();
+                    }
+                }
+            });
+            Loop_ajax(i + 1, length,evt);
+        }
+    }
+    /**
+     * 删除一张上传的图片
+     */
+    function removeImage() {
+        $('.delete-i').on('click', function () {
+            $(this).parents('.img-list-li').length < 3 && $('.li-last').show();
+            $(this).parents('.img-list-li').remove();
+        });
+    }
+
+    $(".save_conplan").click(function () {
+        $(this).css("pointer-events","none");
+        var save = $(this);
+        $.post("/political/politics/ajaxAddComp", $("#myFrom").serialize(), function(res) {
+            if(res.error_code != 0){
+                $(save).css("pointer-events","");
+                layer.msg(res.error_msg, {time: 1000});
+            }else{
+                layer.msg("举报成功", {time: 1000});
+                $(save).css("pointer-events","");
+                $(".ju_complan").hide();
+            }
+        },'json');
+    })
+
+</script>
+</body>
+</html>

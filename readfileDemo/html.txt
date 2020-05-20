@@ -1,0 +1,420 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>python-脚本之家</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="keywords" content="python,python入门,python开发,python编程,python爬虫" />
+<meta name="description" content="Python是一种面向对象的解释型计算机程序设计语言，由荷兰人Guido van Rossum于1989年发明，Python的定位是“优雅”、“明确”、“简单”，所以Python程序看上去总是简单易懂，初学者学Python，不但入门容易，而且将来深入下去，可以编写那些非常非常复杂的程序。" />
+<link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.jb51.net/list/list_97_1.htm" />
+<meta http-equiv="mobile-agent" content="format=html5; url=https://m.jb51.net/list/list_97_1.htm">
+<meta http-equiv="mobile-agent" content="format=xhtml; url=https://m.jb51.net/list/list_97_1.htm">
+<script type="text/javascript">
+var lmname="python";
+(function(){var reWriteUrl=function(url){if(url){var Splits=url.split("/"),siteName=window.location.pathname;if(typeof siteName!=="undefined"){return "https://m.jb51.net"+siteName}}};if(/Android|webOS|iPhone|iPad|Windows Phone|iPod|BlackBerry|SymbianOS|Nokia|Mobile/i.test(navigator.userAgent)){var url=window.location.href;var pathname=window.location.pathname;if(url.indexOf("?pc")<0){try{window.location.href=reWriteUrl(url)}catch(e){}}}})();
+</script>
+<meta name="referrer" content="always">
+<link type="text/css" href="/skin/2019/css/base.css" rel="stylesheet" />
+<link type="text/css" href="/skin/2019/css/common.css" rel="stylesheet" />
+<link type="text/css" href="//cdn.staticfile.org/viewerjs/1.5.0/viewer.min.css" rel="stylesheet" />
+<script type="text/javascript" src="//apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='/skin/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+</script>
+<script type=text/javascript src="/js/function.js"></script>
+</head>
+<body>
+<!--topbar Start -->
+<div id="topbar">
+    <div id="wrap">
+		<div class="topbarleft">
+			<a href="/" target="_blank">脚本之家</a>
+			<a href="http://s.jb51.net" target="_blank" rel="nofollow">服务器常用软件</a>
+		</div>
+		<div class="fr">
+			<ul>
+				<li><i class="ico-mobile"></i><a target="_blank" href="https://m.jb51.net/" rel="nofollow">手机版</a></li>
+				<li><i class="ico-contribute"></i><a href="http://tougao.jb51.net" rel="nofollow" target="_blank">投稿中心</a></li>
+				<li id="wxHide"><i class="ico-wechat"></i><a href="javascript:void(0)" target="_blank">关注微信</a>
+					<div id="wxShow" class="wxHide_box"><img src="//files.jb51.net/skin/2018/images/erwm.jpg" alt="扫一扫" width="84" hight="84" data-baiduimageplus-ignore></div>
+				</li>
+			</ul>
+			<!--快捷导航 开始 -->
+			<div class="text_d right" id="navHide">
+				<a rel="nofollow" href="javascript:void(0);">快捷导航 <i class="arrowright"></i></a>
+				<div id="navBox" class="nwebnav">
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="/softs/" target="_blank">软件下载</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/softs/android.html" target="_blank">android</a>
+								<a rel="nofollow" href="/softs/mac.html" target="_blank">MAC</a>
+								<a rel="nofollow" href="/qudong/" target="_blank">驱动下载</a>
+								<a rel="nofollow" href="/fonts/" target="_blank">字体下载</a>
+								<a rel="nofollow" href="/dll/" target="_blank">DLL</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="/codes/" target="_blank">源码下载</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/codes/php.html" target="_blank">PHP</a>
+								<a rel="nofollow" href="/codes/aspnet.html" target="_blank">ASP.NET</a>
+								<a rel="nofollow" href="/codes/asp.html" target="_blank">ASP</a>
+								<a rel="nofollow" href="/codes/jsp.html" target="_blank">JSP</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="/list/index_84.htm" target="_blank">软件编程</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/list/list_85_1.htm" target="_blank">C#</a>
+								<a rel="nofollow" href="/list/list_134_1.htm" target="_blank">JAVA</a>
+								<a rel="nofollow" href="/list/list_159_1.htm" target="_blank">C 语言</a>
+								<a rel="nofollow" href="/list/list_206_1.htm" target="_blank">Delphi</a>
+								<a rel="nofollow" href="/list/list_233_1.htm" target="_blank">Android</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="/list/index_1.htm" target="_blank">网络编程</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/list/list_15_1.htm" target="_blank">PHP</a>
+								<a rel="nofollow" href="/list/list_21_1.htm" target="_blank">ASP.NET</a>
+								<a rel="nofollow" href="/list/list_2_1.htm" target="_blank">ASP</a>
+								<a rel="nofollow" href="/list/list_3_1.htm" target="_blank">JavaScript</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="http://tools.jb51.net/" target="_blank">在线工具</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/tools/cssyasuo.shtml" target="_blank">CSS格式化</a>
+								<a rel="nofollow" href="http://tools.jb51.net/tools/js_geshihua.asp" target="_blank">JS格式化</a>
+								<a rel="nofollow" href="/tools/html-js.htm" target="_blank">Html转化为Js</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="/list/index_104.htm" target="_blank">数据库</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/list/list_112_1.htm" target="_blank">MYSQL</a>
+								<a rel="nofollow" href="/list/list_113_1.htm" target="_blank">MSSQL</a>
+								<a rel="nofollow" href="/list/list_154_1.htm" target="_blank">oracle</a>
+								<a rel="nofollow" href="/list/list_155_1.htm" target="_blank">DB2</a>
+								<a rel="nofollow" href="/list/list_252_1.htm" target="_blank">MARIADB</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="/cms/" target="_blank">CMS</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/cms/list411_1.html" target="_blank">PHPCMS</a>
+								<a rel="nofollow" href="/cms/list408_1.html" target="_blank">DEDECMS</a>
+								<a rel="nofollow" href="/cms/list578_1.html" target="_blank">帝国CMS</a>
+								<a rel="nofollow" href="/cms/list419_1.html" target="_blank">WordPress</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="ndeallist clear_fix">
+						<h4><a rel="nofollow" href="javascript:0;" target="_blank">常用工具</a></h4>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="/zt/phphuanjing.html" target="_blank">PHP开发工具</a>
+								<a rel="nofollow" href="/zt/python.html" target="_blank">python</a>
+								<a rel="nofollow" href="/zt/photoshopxz.html" target="_blank">Photoshop</a>
+								<a rel="nofollow" href="/bibei/win/index.html" target="_blank">必备软件</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<!--快捷导航 结束 -->
+		</div>
+    </div>
+</div>
+<!--topbar end -->
+
+<div id="header">
+	<!-- Logo start -->
+	  <div id="logo"><a href="/"><img src="/images/logo.gif" title="脚本之家" alt="脚本之家" /></a></div>
+	  <div class="logom fl"><span id="logo_m" class="jbTestPos"></span></div>
+	  <div class="logor fr"><span id="logo_r" class="jbTestPos"></span></div>
+	<!--Logo end -->
+</div>
+
+<!-- 导航开始 -->
+<div id="nav">
+	<ul>
+		<li><a href="/">网站首页</a></li>
+		<li><a href="/web/">网页制作</a></li>
+		<li><a href="/list/index_1.htm">网络编程</a></li>
+		<li><a href="/list/index_96.htm">脚本专栏</a></li>
+		<li><a href="/jiaoben/">脚本下载</a></li>
+		<li><a href="/list/index_104.htm">数据库</a></li>
+		<li><a href="/list/list_82_1.htm">服务器</a></li>
+		<li><a href="/books/">电子书籍</a></li>
+		<li><a href="/os/">操作系统</a></li>
+		<li><a href="/yunying/">网站运营</a></li>
+		<li><a href="/pingmian/">平面设计</a></li>
+		<li><p><i>其它</i><span>
+			<a href="/media/">媒体动画</a>
+			<a href="/diannaojichu/">电脑基础</a>
+			<a href="/hardware/">硬件教程</a>
+			<a href="/hack/">网络安全</a>
+		</span></p>
+		</li>
+	</ul>
+</div>
+<!--导航结束-->
+
+<!-- 二级菜单开始 -->
+<div id="submenu">
+	<div class="subnav clearfix">
+<ul><li><a href="/list/list_5_1.htm" title="AJAX相关">AJAX相关</a></li><li><a href="/list/list_3_1.htm" title="JavaScript">JavaScript</a></li><li><a href="/list/list_2_1.htm" title="ASP编程">ASP编程</a></li><li><a href="/list/list_6_1.htm" title="正则表达式">正则表达式</a></li><li><a href="/list/list_4_1.htm" title="CSS/HTML">CSS/HTML</a></li><li><a href="/list/list_15_1.htm" title="PHP编程">PHP编程</a></li><li><a href="/list/list_114_1.htm" title="vbs">vbscript</a></li><li><a href="/list/list_106_1.htm" title="DOS/BAT">DOS/BAT</a></li><li><a href="/list/list_110_1.htm" title="hta">hta</a></li></ul>
+	</div>
+</div>
+<!-- 二级菜单结束 -->
+
+<!--content Star -->
+<div id="wrapper">
+	<div id="container">
+		<div class="main clearfix">
+			<div class="tonglanad1200 mt5"><div class="tl"><span id="tonglan_1024" class="jbTestPos"></span></div></div>
+		</div>
+		<div class="pt5 clearfix">
+			<div class="breadcrumb">
+				<i class="ico-path"></i>您的位置：<a href='/index.htm'>首页</a> >> <a href='index_96.htm'>脚本专栏</a> >> <a href='list_97_1.htm'>python</a>
+			</div>
+			<div class="search">
+			<form action="/do/search.php" target="_blank">
+				<input type="hidden" name="s" value="10520733385329581432">
+				<input type="hidden" name="ie" value="gbk">
+				<input type="text" name="q" class="searchinput" placeholder="请输入关键词">
+				<input type="submit" value=" " class="search-button">
+			</form>
+			</div>
+		</div>
+		 <div id="main" class="clearfix">
+			  <div class="main-left">
+				  <div id="article">
+				  <div class="mtb10 lists-main"><div class="introduces"><div class="tjcon"><div class="thumb"><img src="//files.jb51.net/images/lm_img/python.png" alt="python"></div><h1>python</h1><a class="more" href="http://www.jb51.net/article/926.htm" target="_blank">详情>></a> <p>Python（发音：英[&#712;pa&#618;θ&#601;n]，美[&#712;pa&#618;θɑ:n]），是一种面向对象、直译式电脑编程语言，也是一种功能强大的通用型语言，已经具有近二十年的发展历史，成熟且稳定。它包含了一组完善而且容易理解的标准库，能够轻松完成很多常见的任务。它的语法非常简捷和清晰，与其它大多数程序设计语言不一样，它使用缩进来定义语句。</p>
+<ol>
+    <li>Python 是一种解释型语言： 这意味着开发过程中没有了编译这个环节。类似于PHP和Perl语言。</li>
+    <li>Python 是交互式语言： 这意味着，您可以在一个Python提示符，直接互动执行写你的程序。</li>
+    <li>Python 是面向对象语言: 这意味着Python支持面向对象的风格或代码封装在对象的编程技术。</li>
+    <li>Python 是初学者的语言：Python 对初级程序员而言，是一种伟大的语言，它支持广泛的应用程序开发，从简单的文字处理到 WWW 浏览器再到游戏。</li>
+</ol>
+<p>Python支持命令式程序设计、面向对象程序设计、函数式编程、面向切面编程、泛型编程多种编程范式。与Scheme、Ruby、Perl、Tcl等动态语言一样，Python具备垃圾回收功能，能够自动管理存储器使用。它经常被当作脚本语言用于处理系统管理任务和网络程序编写，然而它也非常适合完成各种高级任务。Python虚拟机本身几乎可以在所有的作业系统中运行。使用一些诸如py2exe、PyPy、PyInstaller之类的工具可以将Python源代码转换成可以脱离Python解释器运行的程序。</p></div></div><a href="javascript:" id="moreinfo"><span></span>展开全部</a><div class="lists-links"><a href='http://so.jb51.net/cse/search?s=10520733385329581432&ie=gbk&q=python' target="_blank">python</a><a href='http://so.jb51.net/cse/search?s=10520733385329581432&ie=gbk&q=python入门' target="_blank">python入门</a><a href='http://so.jb51.net/cse/search?s=10520733385329581432&ie=gbk&q=python开发' target="_blank">python开发</a><a href='http://so.jb51.net/cse/search?s=10520733385329581432&ie=gbk&q=python编程' target="_blank">python编程</a><a href='http://so.jb51.net/cse/search?s=10520733385329581432&ie=gbk&q=python爬虫' target="_blank">python爬虫</a></div></div>
+					<div class="clearfix"><span id="index_top" class="jbTestPos"></span></div>
+                        <div class="artlist clearfix">
+                           <DL>
+<DT><span>日期:2020-01-22</span><a href="/article/179069.htm" title="django 文件上传功能的相关实例代码(简单易懂)" target="_blank">django 文件上传功能的相关实例代码(简单易懂)</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179068.htm" title="python动态文本进度条的实例代码" target="_blank">python动态文本进度条的实例代码</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179066.htm" title="python wav模块获取采样率 采样点声道量化位数(实例代码)" target="_blank">python wav模块获取采样率 采样点声道量化位数(实例代码)</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179056.htm" title="使用Python实现Wake On Lan远程开机功能" target="_blank">使用Python实现Wake On Lan远程开机功能</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179054.htm" title="python定义类self用法实例解析" target="_blank">python定义类self用法实例解析</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179053.htm" title="通过实例解析python描述符原理作用" target="_blank">通过实例解析python描述符原理作用</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179052.htm" title="python基于property()函数定义属性" target="_blank">python基于property()函数定义属性</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179051.htm" title="Python @property装饰器原理解析" target="_blank">Python @property装饰器原理解析</a></DT>
+<DT><span>日期:2020-01-22</span><a href="/article/179046.htm" title="Python底层封装实现方法详解" target="_blank">Python底层封装实现方法详解</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179044.htm" title="tensorboard实现同时显示训练曲线和测试曲线" target="_blank">tensorboard实现同时显示训练曲线和测试曲线</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179042.htm" title="使用tensorboard可视化loss和acc的实例" target="_blank">使用tensorboard可视化loss和acc的实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179038.htm" title="TensorFlow绘制loss/accuracy曲线的实例" target="_blank">TensorFlow绘制loss/accuracy曲线的实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179032.htm" title="NumPy统计函数的实现方法" target="_blank">NumPy统计函数的实现方法</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179028.htm" title="TensorFlow实现打印每一层的输出" target="_blank">TensorFlow实现打印每一层的输出</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179027.htm" title="NumPy排序的实现" target="_blank">NumPy排序的实现</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179026.htm" title="tensorflow实现在函数中用tf.Print输出中间值" target="_blank">tensorflow实现在函数中用tf.Print输出中间值</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179019.htm" title="Python实现随机生成任意数量车牌号" target="_blank">Python实现随机生成任意数量车牌号</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179009.htm" title="tensorflow模型继续训练 fineturn实例" target="_blank">tensorflow模型继续训练 fineturn实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179006.htm" title="tensorflow ckpt模型和pb模型获取节点名称,及ckpt转pb模型实例" target="_blank">tensorflow ckpt模型和pb模型获取节点名称,及ckpt转pb模型实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179003.htm" title="tensorflow查看ckpt各节点名称实例" target="_blank">tensorflow查看ckpt各节点名称实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179001.htm" title="python同义词替换的实现（jieba分词）" target="_blank">python同义词替换的实现（jieba分词）</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/179000.htm" title="tensorflow模型保存、加载之变量重命名实例" target="_blank">tensorflow模型保存、加载之变量重命名实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178997.htm" title="tensorflow实现测试时读取任意指定的check point的网络参数" target="_blank">tensorflow实现测试时读取任意指定的check point的网络参数</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178993.htm" title="tensorflow如何继续训练之前保存的模型实例" target="_blank">tensorflow如何继续训练之前保存的模型实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178992.htm" title="在tensorflow中设置保存checkpoint的最大数量实例" target="_blank">在tensorflow中设置保存checkpoint的最大数量实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178989.htm" title="TensorFlow——Checkpoint为模型添加检查点的实例" target="_blank">TensorFlow——Checkpoint为模型添加检查点的实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178985.htm" title="tensorflow estimator 使用hook实现finetune方式" target="_blank">tensorflow estimator 使用hook实现finetune方式</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178984.htm" title="Python实现FLV视频拼接功能" target="_blank">Python实现FLV视频拼接功能</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178980.htm" title="TFRecord格式存储数据与队列读取实例" target="_blank">TFRecord格式存储数据与队列读取实例</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178976.htm" title="TensorFlow dataset.shuffle、batch、repeat的使用详解" target="_blank">TensorFlow dataset.shuffle、batch、repeat的使用详解</a></DT>
+<DT><span>日期:2020-01-21</span><a href="/article/178969.htm" title="使用 tf.nn.dynamic_rnn 展开时间维度方式" target="_blank">使用 tf.nn.dynamic_rnn 展开时间维度方式</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178964.htm" title="python爬取本站电子书信息并入库的实现代码" target="_blank">python爬取本站电子书信息并入库的实现代码</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178963.htm" title="浅谈Tensorflow 动态双向RNN的输出问题" target="_blank">浅谈Tensorflow 动态双向RNN的输出问题</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178962.htm" title="关于tf.nn.dynamic_rnn返回值详解" target="_blank">关于tf.nn.dynamic_rnn返回值详解</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178961.htm" title="双向RNN:bidirectional_dynamic_rnn()函数的使用详解" target="_blank">双向RNN:bidirectional_dynamic_rnn()函数的使用详解</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178960.htm" title="关于tf.reverse_sequence()简述" target="_blank">关于tf.reverse_sequence()简述</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178958.htm" title="tensorflow使用range_input_producer多线程读取数据实例" target="_blank">tensorflow使用range_input_producer多线程读取数据实例</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178956.htm" title="浅谈tensorflow中Dataset图片的批量读取及维度的操作详解" target="_blank">浅谈tensorflow中Dataset图片的批量读取及维度的操作详解</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178954.htm" title="使用tensorflow DataSet实现高效加载变长文本输入" target="_blank">使用tensorflow DataSet实现高效加载变长文本输入</a></DT>
+<DT><span>日期:2020-01-20</span><a href="/article/178952.htm" title="python机器学习库xgboost的使用" target="_blank">python机器学习库xgboost的使用</a></DT>
+</DL>
+                            <div class="blank5 clearfix"></div>
+                            <div class="dxypage clearfix">页次：1/513 每页40 文章数20513&nbsp;&nbsp;<a href='#'>首页</a><a href='#'>上页</a><strong>1</strong><a href="/list/list_97_2.htm">2</a><a href="/list/list_97_3.htm">3</a><a href=/list/list_97_2.htm title="下页">下页</a><a href=/list/list_97_513.htm title="末页">末页</a></div>
+                            <div class="blank10 clearfix"></div>
+                    </div>
+				</div>
+			</div><!--end fl-->
+
+			<div class="main-right">
+				<div id="sidebar-right">
+					<div class="r300 clearfix"><span id="r1gg" class="jbTestPos"></span></div>
+					<div class="sidebox bor-blue">
+						<div class="bor-default pb10">
+						<h4 class="blue">分类排行榜</h4>
+						<ul class="newsList newList-in">
+						<li><EM class="no1">1</EM><a href="/article/926.htm" title="Python入门教程 超详细1小时学会Python" target="_blank">Python入门教程 超详细1小时学会Python</a></li><li><EM class="no2">2</EM><a href="/article/47978.htm" title="Python 列表(List)操作方法详解" target="_blank">Python 列表(List)操作方法详解</a></li><li><EM class="no3">3</EM><a href="/article/47986.htm" title="Python 元组(Tuple)操作详解" target="_blank">Python 元组(Tuple)操作详解</a></li><li><EM class="no4">4</EM><a href="/article/47990.htm" title="Python 字典(Dictionary)操作详解" target="_blank">Python 字典(Dictionary)操作详解</a></li><li><EM class="no5">5</EM><a href="/article/50689.htm" title="pycharm 使用心得（一）安装和首次使用" target="_blank">pycharm 使用心得（一）安装和首次使用</a></li><li><EM class="no6">6</EM><a href="/article/37287.htm" title="python strip()函数 介绍" target="_blank">python strip()函数 介绍</a></li><li><EM class="no7">7</EM><a href="/article/26543.htm" title="python 中文乱码问题深入分析" target="_blank">python 中文乱码问题深入分析</a></li><li><EM class="no8">8</EM><a href="/article/51651.htm" title="Python科学计算环境推荐——Anaconda" target="_blank">Python科学计算环境推荐——Anaconda</a></li><li><EM class="no9">9</EM><a href="/article/45956.htm" title="python逐行读取文件内容的三种方法" target="_blank">python逐行读取文件内容的三种方法</a></li><li><EM class="no10">10</EM><a href="/article/60510.htm" title="python中使用xlrd、xlwt操作excel表格详解" target="_blank">python中使用xlrd、xlwt操作excel表格详解</a></li>
+						</ul>
+						</div>
+					</div>
+                    <div class="r300 mt10 clearfix"><span id="list_r_mid" class="jbTestPos"></span></div>
+					<div class="sidebox bor-blue">
+					<div class="bor-default pb10">
+					<h4 class="blue">最近更新的内容</h4>
+					<ul class="newsListA">
+					<ul><li><a href="/article/179069.htm" title="django 文件上传功能的相关实例代码(简单易懂)" target="_blank">django 文件上传功能的相关实例代码(简单</a></li>
+<li><a href="/article/179068.htm" title="python动态文本进度条的实例代码" target="_blank">python动态文本进度条的实例代码</a></li>
+<li><a href="/article/179066.htm" title="python wav模块获取采样率 采样点声道量化位数(实例代码)" target="_blank">python wav模块获取采样率 采样点声道量化</a></li>
+<li><a href="/article/179056.htm" title="使用Python实现Wake On Lan远程开机功能" target="_blank">使用Python实现Wake On Lan远程开机功能</a></li>
+<li><a href="/article/179054.htm" title="python定义类self用法实例解析" target="_blank">python定义类self用法实例解析</a></li>
+<li><a href="/article/179053.htm" title="通过实例解析python描述符原理作用" target="_blank">通过实例解析python描述符原理作用</a></li>
+<li><a href="/article/179052.htm" title="python基于property()函数定义属性" target="_blank">python基于property()函数定义属性</a></li>
+<li><a href="/article/179051.htm" title="Python @property装饰器原理解析" target="_blank">Python @property装饰器原理解析</a></li>
+<li><a href="/article/179046.htm" title="Python底层封装实现方法详解" target="_blank">Python底层封装实现方法详解</a></li>
+<li><a href="/article/179044.htm" title="tensorboard实现同时显示训练曲线和测试曲线" target="_blank">tensorboard实现同时显示训练曲线和测试曲</a></li>
+</ul>
+					</ul>
+					</div>
+					</div>
+					<div class="r300 clearfix"></div>
+                    <div class="sidebox bor-blue">
+					<div class="bor-default pb10">
+					<h4 class="blue">常用在线小工具</h4>
+					<ul class="newsListA">
+					<span id="bctools" class="jbTestPos"></span>
+					</ul>
+					</div>
+					</div>
+                    <div class="r300 clearfix mt10"></div>
+					<div class="rFixedBox">
+					<script type="text/javascript">jb51_a_d("jb51xf");</script>
+					</div>
+				</div>
+			</div><!--end fr-->
+		</div>
+	</div><!--end content-->
+	<!--share start-->
+	 <div id="right-share">
+		<div class="right-share jb-share" id="jb-share">
+			<a class="rshare-weixin" title="">微信</a>
+			<a rel="nofollow" class="rshare-qzone" target="_blank" href="http://tougao.jb51.net/" title="投稿">投稿</a>
+			<a rel="nofollow" class="rshare-tsina2" target="_blank" href="http://tools.jb51.net/" title="在线工具">在线工具</a>
+		</div>
+		<a class="rshare-top2" onClick="javascript:;"></a>
+		<div id="weixin-code" class="hide">
+		<div class="popup_weixin_head"><p>关注微信公众号</p>
+		<div id="code"><img src="//files.jb51.net/skin/2018/images/erwm.jpg" alt="扫一扫" width="100" hight="100"></div>
+		</div>
+		</div>
+	 </div>
+	<!--share end-->
+</div>
+<!--footer start-->
+<div id="footer">
+	<div class="footer-bottom">
+	<p>
+	<a rel="nofollow" href="//www.jb51.net/about.htm" target="_blank">关于我们</a> -
+	<a rel="nofollow" href="//www.jb51.net/support.htm" target="_blank">广告合作</a> -
+	<a rel="nofollow" href="//www.jb51.net/linkus.htm" target="_blank">联系我们</a> -
+	<a rel="nofollow" href="//www.jb51.net/sm.htm" target="_blank">免责声明</a> -
+	<a rel="nofollow" href="//www.jb51.net/sitemap.htm" target="_blank">网站地图</a> -
+	<a rel="nofollow" href="tencent://message/?uin=461478385&Site=http://www.jb51.net" target="_blank">投诉建议</a> -
+	<a rel="nofollow" href="//www.jb51.net/up.htm" target="_blank">在线投稿</a>
+	</p>
+	<p>&copy;CopyRight 2006-2020 JB51.Net Inc All Rights Reserved. 脚本之家 版权所有</p>
+	</div>
+</div>
+<!--footer end-->
+<script type="text/javascript">
+/*更多导航*/
+$("#nav p").hover(function(){$(this).addClass("hover")},function(){$(this).removeClass("hover")});
+if (top.location != self.location)top.location=self.location;
+var varwindow=$(window);
+$(function(){
+	varwindow.scroll(function()
+    {
+    	//rFixedBox跟随滚动
+    	var h = varwindow.height();
+        var top = varwindow.scrollTop();
+    	var rFixedBox = $('.rFixedBox').prev().offset();
+        var fixedTop = rFixedBox.top;
+
+        if(top>=fixedTop+344)
+        {
+			var h1 = parseInt($('#content').children('.main').height());
+			if(parseInt(top) + 340 < h1){
+				$('.rFixedBox').css({'position':'fixed','top': 0});
+			}else{
+				$('.rFixedBox').css({'position':'absolute','top': h1-510});
+			}
+        }
+        else
+        {
+            $('.rFixedBox').css({'position':'static', 'top':0});
+        }
+       /* return true;*/
+
+	   /*右侧快捷菜单*/
+	   sideFixed();
+    });
+	var ww = varwindow.width();
+
+	function sideFixed(){
+	var scrolltop = document.body.scrollTop || document.documentElement.scrollTop;
+	var a1 = 550;
+	if(ww>440){
+		if(a1<=scrolltop){
+			$('#right-share').slideDown();
+			}
+		else{
+			$('#right-share').slideUp();
+			}
+		}
+	}
+	$('.rshare-weixin').hover(function(){
+			$('#weixin-code').removeClass('hide');
+		},function(){
+			$('#weixin-code').addClass('hide');
+		});
+	/*二维码*/
+	$('#right-share .rshare-top2').on('click',function(){
+        $('html,body').animate({'scrollTop':0},500);
+    });
+});
+</script>
+<script type="text/javascript" src='//icws.jb51.net/good/arc2019.js'></script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<div id="tongji">
+<script type="text/javascript" src="//icws.jb51.net/tongji/tongji.js"></script>
+</div>
+</body>
+</html>
+<!-- published at 2020/1/22 23:39:56By dxycms qq:461478385  -->
